@@ -26,11 +26,23 @@ $racasPapagaioSuperFodas = [
     "Papagaio-de-bochecha-azul "
 ];
 
-// Adicionando mais uma raça
 $racasPapagaioSuperFodas[] = "Papagaio-moleiro";
 
 print_r($racasPapagaioSuperFodas);
 
 echo"\n----------------";
 echo "\n";
+
+// Exercicio 10
+
+$pessoaSuperManeira = [
+    "Nome" => "Gabriel",
+    "Idade" => 24,
+    "Cidade" => "Rolandia",
+    "Tchola" => "Talvez"
+];
+
+foreach ($pessoa as $chave => $valor) {
+    echo "$chave: $valor\n";
+}
 ?>
