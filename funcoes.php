@@ -4,7 +4,7 @@ function saudacao($nomeDaora) {
     echo"Olá $nomeDaora!\n";
 }
 
-saudacao("John Marston");
+saudacao("Carlos Johnson");
 
 echo"\n----------------";
 echo "\n";
